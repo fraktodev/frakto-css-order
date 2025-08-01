@@ -1,0 +1,18 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#7c4dff",
+    "titleBar.activeBackground": "#7c4dff",
+    "titleBar.activeForeground": "#FFFFFF"
+  },
+  "cSpell.words": [
+    "asian",
+    "backface",
+    "docblocks",
+    "Flexbox",
+    "frakto",
+    "Frakto",
+    "fraktodev",
+    "SMACSS",
+    "unicode"
+  ]
+}

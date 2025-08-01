@@ -1,0 +1,44 @@
+name: Question
+description: Ask about usage, setup, or anything you're unsure of.
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in Frakto CSS Order!  
+        This form is for asking general questions about usage, configuration, or best practices.
+
+        If you're reporting a bug or suggesting a feature, please use the appropriate template instead.
+
+  - type: input
+    id: context
+    attributes:
+      label: What's your question about?
+      description: Give a short title or subject for your question.
+      placeholder: e.g., How do I exclude a folder from purging?
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Please describe your question in as much detail as possible. Include code snippets or examples if needed.
+      placeholder: |
+        I'm trying to use Frakto CSS Order with a custom setup, but I'm not sure how to...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tried
+    attributes:
+      label: What have you tried?
+      options:
+        - label: I’ve read the README and documentation.
+        - label: I’ve checked existing issues and discussions.
+        - label: I’ve tried reproducing the issue in isolation.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment (optional)
