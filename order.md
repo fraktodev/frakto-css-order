@@ -32,6 +32,8 @@
 - contain-intrinsic-size
 - contain-intrinsic-width
 - contain-intrinsic-height
+- contain-intrinsic-block-size
+- contain-intrinsic-inline-size
 - container
 - container-name
 - container-type
@@ -175,6 +177,8 @@
 - text-indent
 - text-justify
 - text-wrap
+- text-wrap-mode
+- text-wrap-style
 - text-overflow
 - text-transform
 - text-orientation
@@ -193,6 +197,10 @@
 - text-emphasis-position
 - text-shadow
 - text-rendering
+- text-anchor
+- text-box
+- text-box-edge
+- text-box-trim
 - -webkit-text-fill-color
 - -webkit-text-stroke
 - -webkit-text-stroke-width
@@ -200,8 +208,8 @@
 
 - line-height
 - line-break
+- line-clamp
 - line-gap-override
-- -webkit-line-clamp
 
 - white-space
 - white-space-collapse
@@ -217,16 +225,20 @@
 
 - hyphens
 - hyphenate-character
+- hyphenate-limit-chars
 - hanging-punctuation
 
 - direction
 - unicode-midi
 - unicode-range
 - writing-mode
-- baseline-source
+- dominant-baseline
+- alignment-baseline
 - ascent-override
 - descent-override
+- initial-letter
 - ruby-position
+- ruby-align
 - quotes
 
 ### 5. Visual
@@ -335,7 +347,6 @@
 - filter
 - backdrop-filter
 - backface-visibility
-- clip-path
 
 - mask
 - mask-border
@@ -356,7 +367,39 @@
 
 - shape-outside
 - shape-margin
+- shape-rendering
 - shape-image-threshold
+
+- d
+- x
+- y
+- cx
+- cy
+- r
+- rx
+- ry
+- clip-path
+- clip-rule
+- fill
+- fill-opacity
+- fill-rule
+- flood-color
+- flood-opacity
+- lighting-color
+- marker
+- marker-start
+- marker-mid
+- marker-end
+- stroke
+- stroke-width
+- stroke-opacity
+- stroke-dasharray
+- stroke-dashoffset
+- stroke-linecap
+- stroke-linejoin
+- stroke-miterlimit
+- stop-color
+- stop-opacity
 
 - accent-color
 - mix-blend-mode
@@ -365,6 +408,7 @@
 - appearance
 - color-scheme
 - color-interpolation
+- color-interpolation-filters
 
 ### 6. Transform
 
@@ -375,6 +419,8 @@
 - translate
 - scale
 - rotate
+- zoom
+- vector-effect
 
 - transition
 - transition-property
@@ -382,6 +428,7 @@
 - transition-timing-function
 - transition-delay
 - transition-behavior
+- view-transition-name
 
 - animation
 - animation-name
@@ -480,9 +527,6 @@
 - break-after
 - break-before
 - break-inside
-- page-break-after
-- page-break-before
-- page-break-inside
 
 - counter-reset
 - counter-increment
