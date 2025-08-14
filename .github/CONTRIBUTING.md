@@ -45,8 +45,7 @@ They may not be used under any circumstance. Code should remain clean, professio
 
 ### Language Policy
 
-All code, comments, docblocks, commit messages, and documentation must be written in English at all times.  
-No exceptions are allowed. Consistency in language ensures clarity and global accessibility.
+All code, comments, docblocks, commit messages, and documentation must be written in English at all times. No exceptions are allowed. Consistency in language ensures clarity and global accessibility.
 
 ---
 

@@ -1,18 +1,42 @@
 {
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#7c4dff",
-    "titleBar.activeBackground": "#7c4dff",
-    "titleBar.activeForeground": "#FFFFFF"
-  },
-  "cSpell.words": [
-    "asian",
-    "backface",
-    "docblocks",
-    "Flexbox",
-    "frakto",
-    "Frakto",
-    "fraktodev",
-    "SMACSS",
-    "unicode"
-  ]
+	// Window color customization
+	"workbench.colorCustomizations": {
+		"activityBar.activeBackground": "#a280ff",
+		"activityBar.background": "#a280ff",
+		"activityBar.foreground": "#15202b",
+		"activityBar.inactiveForeground": "#15202b99",
+		"activityBarBadge.background": "#ffd0bf",
+		"activityBarBadge.foreground": "#15202b",
+		"commandCenter.border": "#e7e7e799",
+		"sash.hoverBorder": "#a280ff",
+		"statusBar.background": "#7c4dff",
+		"statusBar.foreground": "#e7e7e7",
+		"statusBarItem.hoverBackground": "#a280ff",
+		"statusBarItem.remoteBackground": "#7c4dff",
+		"statusBarItem.remoteForeground": "#e7e7e7",
+		"titleBar.activeBackground": "#7c4dff",
+		"titleBar.activeForeground": "#e7e7e7",
+		"titleBar.inactiveBackground": "#7c4dff99",
+		"titleBar.inactiveForeground": "#e7e7e799"
+	},
+	"peacock.color": "#7c4dff",
+
+	// Copilot settings
+	"chat.instructionsFilesLocations": {
+		".github/copilot-instructions.md": true
+	},
+
+	// Spell checker settings
+	"cSpell.words": [
+		"asian",
+		"backface",
+		"docblocks",
+		"Flexbox",
+		"frakto",
+		"Frakto",
+		"fraktodev",
+		"postcss",
+		"SMACSS",
+		"unicode"
+	]
 }
