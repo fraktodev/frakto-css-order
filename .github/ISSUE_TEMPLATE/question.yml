@@ -42,4 +42,4 @@ body:
     id: environment
     attributes:
       label: Environment (optional)
-      description: Your project setup (Node.js, postcss, etc.)
+      description: Your development environment setup (e.g. runtime, tool versions, OS, etc.)

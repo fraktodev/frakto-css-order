@@ -38,12 +38,12 @@ Before submitting a pull request, make sure your changes are clear, purposeful, 
 
 ## Guidelines
 
-### Emoji Policy
+### Emoji guidelines
 
 Emojis are strictly prohibited in all code comments, docblocks, commit messages, and documentation.  
 They may not be used under any circumstance. Code should remain clean, professional, and timeless.
 
-### Language Policy
+### Language guidelines
 
 All code, comments, docblocks, commit messages, and documentation must be written in English at all times. No exceptions are allowed. Consistency in language ensures clarity and global accessibility.
 

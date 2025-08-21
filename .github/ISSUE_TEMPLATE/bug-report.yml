@@ -39,7 +39,7 @@ body:
     id: environment
     attributes:
       label: Environment
-      description: Your project setup (Node.js, postcss, etc.)
+      description: Your development environment setup (e.g. runtime, tool versions, OS, etc.)
   - type: textarea
     id: additional
     attributes:
