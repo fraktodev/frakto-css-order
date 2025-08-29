@@ -69,8 +69,10 @@ Make sure to follow our [contributing guidelines](https://github.com/fraktodev/f
 
 MIT License — Copyright © 2025 [Frakto](https://github.com/fraktodev/)
 
-## Funding
+## Support this project
 
-This project is maintained with love and dedication.  
-If you'd like to support its continued development, you can do so here:  
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%E2%98%95-yellow.svg?style=flat)](https://coff.ee/danybranding)
+This project is maintained with love and dedication. If you find it helpful, please consider:
+
+[![Star on GitHub](https://img.shields.io/badge/GitHub-Star-4A90E2?style=flat&logo=github)](https://github.com/fraktodev/frakto-css-order)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me-a%20Coffee-E67E22.svg?logo=buymeacoffee&logoColor=white)](https://coff.ee/danybranding)
+[![Become a Sponsor](https://img.shields.io/badge/GitHub-Sponsor-8B5CF6?style=flat&logo=github)](https://github.com/sponsors/danybranding)
